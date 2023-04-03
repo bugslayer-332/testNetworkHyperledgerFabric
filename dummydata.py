@@ -16,7 +16,7 @@ jsonObj = {
     "peers": ["peer0.org1.example.com","peer0.org2.example.com"],
     "chaincodeName":"fabcar",
     "channelName": "mychannel",
-   "args": ["ALphonso1","Mango","Fruit","Yellow","Satyajit Sir"]
+   "args": ["ALphonso2","Mango","Fruit","Yellow","Satyajit Sir"]
 }
 
 x = requests.post(url, json = jsonObj,headers=headers)
